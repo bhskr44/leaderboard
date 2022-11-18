@@ -77,7 +77,7 @@ input {
   background-color: transparent;
   border: 1px solid #737373;
   outline: none;
-  color: white;
+  color: rgb(15, 15, 15);
 }
 
 ::placeholder {
@@ -90,8 +90,7 @@ button {
   background-color: var(--btn-primary-color);
   border: none;
   color: white;
-  box-shadow:
-    rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+  box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
     rgba(14, 30, 37, 0.32) 0 2px 16px 0;
 }
 
