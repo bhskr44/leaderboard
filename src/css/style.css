@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@300;400;600;800&display=swap');
+
+:root {
+  --btn-primary-color: #606060;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+}
+
+h2 {
+  font-weight: lighter;
+  font-size: 18px;
+  color: black;
+}
+
+section {
+  width: 600px;
+  max-width: 90%;
+  margin: 100px auto;
+}
+
+section h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: black;
+}
+
+main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.score-header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.score-header h2 {
+  margin-right: 8px;
+}
+
+.score-container li {
+  display: block;
+  padding: 5px;
+  font-size: 13px;
+  color: black;
+}
+
+.scores {
+  margin-top: 10px;
+  box-shadow: var(--btn-primary-color) 0 5px 15px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+input {
+  margin: 10px 0;
+  padding: 5px;
+  background-color: transparent;
+  border: 1px solid #737373;
+  outline: none;
+  color: white;
+}
+
+::placeholder {
+  color: black;
+}
+
+button {
+  width: 80px;
+  padding: 5px 0;
+  background-color: var(--btn-primary-color);
+  border: none;
+  color: white;
+  box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
+    rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+}
+
+form button {
+  margin-left: auto;
+}
